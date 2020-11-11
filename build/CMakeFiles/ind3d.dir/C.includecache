@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+limits.h
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+sys/types.h
+-
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alphabeta.h
+alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+delta.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta.h
+gamma.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/gamma.h
+pi.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/pi.h
+omega.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/omega.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta.h
+delta/vec.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/vec.h
+delta/hash_table.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/hash_table.h
+delta/stack.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/stack.h
+delta/queue.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/queue.h
+delta/deck.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/deck.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/deck.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/hash_table.h
+../alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/queue.h
+deck.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/deck.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/stack.h
+vec.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/vec.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/delta/vec.h
+../alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/gamma.h
+alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+pi.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/pi.h
+SDL2/SDL.h
+-
+SDL2/SDL_ttf.h
+-
+SDL2/SDL_image.h
+-
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/omega.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/pi.h
+alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.h
+../include/alphabeta.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alphabeta.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.c
+map.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.c
+player.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.c
+geometry.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.h
+../core.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.h
+
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alpha.c
+../include/alpha.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
+

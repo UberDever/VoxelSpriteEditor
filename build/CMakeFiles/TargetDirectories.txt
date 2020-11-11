@@ -1,0 +1,3 @@
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles/rebuild_cache.dir
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles/edit_cache.dir
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles/ind3d.dir

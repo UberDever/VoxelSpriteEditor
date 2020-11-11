@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ind3d"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ind3d">
+				<Option output="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug/debug/ind3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/uberdever/dev/5 sem/cg/ind3d/src"/>
+					<Add directory="/home/uberdever/dev/5 sem/cg/ind3d/include"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 ind3d"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ind3d/fast">
+				<Option output="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug/debug/ind3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/uberdever/dev/5 sem/cg/ind3d/src"/>
+					<Add directory="/home/uberdever/dev/5 sem/cg/ind3d/include"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 ind3d/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uberdever/dev/5\ sem/cg/ind3d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/alpha.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/alphabeta.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/beta.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta/deck.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta/hash_table.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta/queue.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta/stack.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/delta/vec.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/gamma.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/omega.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/include/pi.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/enemy.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/enemy.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/map.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/map.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/player.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/player.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/projectile.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/game/projectile.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/main.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/sandbox/util.h">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/src/alpha.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/src/alphabeta.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/src/gamma.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/src/gamma/alphabet.c">
+			<Option target="ind3d"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/uberdever/dev/5 sem/cg/ind3d/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/uberdever/dev/5 sem/cg/ind3d/cmake-build-debug/CMakeFiles/ind3d.dir
