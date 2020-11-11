@@ -86,23 +86,11 @@ alpha.h
 ../include/alphabeta.h
 /home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alphabeta.h
 
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.c
-map.h
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.c
+game.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.h
 
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.c
-player.h
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.h
-
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.c
-geometry.h
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.h
-
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.h
-../core.h
+/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.h
+core.h
 /home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.h
-
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alpha.c
-../include/alpha.h
-/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include/alpha.h
 

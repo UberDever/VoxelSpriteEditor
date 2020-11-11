@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ind3d.dir/all
+all: CMakeFiles/VoxelSpriteEditor.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ind3d.dir/clean
+clean: CMakeFiles/VoxelSpriteEditor.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ind3d.dir
+# Target rules for target CMakeFiles/VoxelSpriteEditor.dir
 
 # All Build rule for target.
-CMakeFiles/ind3d.dir/all:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/depend
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target ind3d"
-.PHONY : CMakeFiles/ind3d.dir/all
+CMakeFiles/VoxelSpriteEditor.dir/all:
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/depend
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target VoxelSpriteEditor"
+.PHONY : CMakeFiles/VoxelSpriteEditor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ind3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles" 11
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ind3d.dir/all
+CMakeFiles/VoxelSpriteEditor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles" 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VoxelSpriteEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build/CMakeFiles" 0
-.PHONY : CMakeFiles/ind3d.dir/rule
+.PHONY : CMakeFiles/VoxelSpriteEditor.dir/rule
 
 # Convenience name for target.
-ind3d: CMakeFiles/ind3d.dir/rule
+VoxelSpriteEditor: CMakeFiles/VoxelSpriteEditor.dir/rule
 
-.PHONY : ind3d
+.PHONY : VoxelSpriteEditor
 
 # clean rule for target.
-CMakeFiles/ind3d.dir/clean:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/clean
-.PHONY : CMakeFiles/ind3d.dir/clean
+CMakeFiles/VoxelSpriteEditor.dir/clean:
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/clean
+.PHONY : CMakeFiles/VoxelSpriteEditor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

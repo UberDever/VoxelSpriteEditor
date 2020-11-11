@@ -1,52 +1,37 @@
 [
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/src/alpha.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alpha.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/src/alpha.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alpha.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alpha.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/src/alphabeta.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alphabeta.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/src/alphabeta.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alphabeta.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/alphabeta.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/src/gamma.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/src/gamma.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/src/gamma/alphabet.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma/alphabet.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/src/gamma/alphabet.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma/alphabet.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src/gamma/alphabet.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/game/map.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.c\"",
-  "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/map.c"
-},
-{
-  "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/game/player.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.c\"",
-  "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game/player.c"
-},
-{
-  "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/core.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/sandbox/core.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/core.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/game.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/sandbox/game.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/game.c"
 },
 {
   "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/main.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/main.c\"",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/VoxelSpriteEditor.dir/sandbox/main.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/main.c\"",
   "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/main.c"
-},
-{
-  "directory": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7  -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/src\" -I\"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/include\" -I/usr/include/SDL2  -g   -std=gnu99 -o CMakeFiles/ind3d.dir/sandbox/gl/geometry.c.o   -c \"/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.c\"",
-  "file": "/home/uberdever/dev/5 sem/cg/VoxelSpriteEditor/sandbox/gl/geometry.c"
 }
 ]

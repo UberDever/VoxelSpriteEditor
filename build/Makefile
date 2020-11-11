@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ind3d
+# Target rules for targets named VoxelSpriteEditor
 
 # Build rule for target.
-ind3d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ind3d
-.PHONY : ind3d
+VoxelSpriteEditor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VoxelSpriteEditor
+.PHONY : VoxelSpriteEditor
 
 # fast build rule for target.
-ind3d/fast:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/build
-.PHONY : ind3d/fast
+VoxelSpriteEditor/fast:
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/build
+.PHONY : VoxelSpriteEditor/fast
 
 sandbox/core.o: sandbox/core.c.o
 
@@ -129,7 +129,7 @@ sandbox/core.o: sandbox/core.c.o
 
 # target to build an object file
 sandbox/core.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/core.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/core.c.o
 .PHONY : sandbox/core.c.o
 
 sandbox/core.i: sandbox/core.c.i
@@ -138,7 +138,7 @@ sandbox/core.i: sandbox/core.c.i
 
 # target to preprocess a source file
 sandbox/core.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/core.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/core.c.i
 .PHONY : sandbox/core.c.i
 
 sandbox/core.s: sandbox/core.c.s
@@ -147,7 +147,7 @@ sandbox/core.s: sandbox/core.c.s
 
 # target to generate assembly for a file
 sandbox/core.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/core.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/core.c.s
 .PHONY : sandbox/core.c.s
 
 sandbox/game.o: sandbox/game.c.o
@@ -156,7 +156,7 @@ sandbox/game.o: sandbox/game.c.o
 
 # target to build an object file
 sandbox/game.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/game.c.o
 .PHONY : sandbox/game.c.o
 
 sandbox/game.i: sandbox/game.c.i
@@ -165,7 +165,7 @@ sandbox/game.i: sandbox/game.c.i
 
 # target to preprocess a source file
 sandbox/game.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/game.c.i
 .PHONY : sandbox/game.c.i
 
 sandbox/game.s: sandbox/game.c.s
@@ -174,89 +174,8 @@ sandbox/game.s: sandbox/game.c.s
 
 # target to generate assembly for a file
 sandbox/game.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/game.c.s
 .PHONY : sandbox/game.c.s
-
-sandbox/game/map.o: sandbox/game/map.c.o
-
-.PHONY : sandbox/game/map.o
-
-# target to build an object file
-sandbox/game/map.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/map.c.o
-.PHONY : sandbox/game/map.c.o
-
-sandbox/game/map.i: sandbox/game/map.c.i
-
-.PHONY : sandbox/game/map.i
-
-# target to preprocess a source file
-sandbox/game/map.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/map.c.i
-.PHONY : sandbox/game/map.c.i
-
-sandbox/game/map.s: sandbox/game/map.c.s
-
-.PHONY : sandbox/game/map.s
-
-# target to generate assembly for a file
-sandbox/game/map.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/map.c.s
-.PHONY : sandbox/game/map.c.s
-
-sandbox/game/player.o: sandbox/game/player.c.o
-
-.PHONY : sandbox/game/player.o
-
-# target to build an object file
-sandbox/game/player.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/player.c.o
-.PHONY : sandbox/game/player.c.o
-
-sandbox/game/player.i: sandbox/game/player.c.i
-
-.PHONY : sandbox/game/player.i
-
-# target to preprocess a source file
-sandbox/game/player.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/player.c.i
-.PHONY : sandbox/game/player.c.i
-
-sandbox/game/player.s: sandbox/game/player.c.s
-
-.PHONY : sandbox/game/player.s
-
-# target to generate assembly for a file
-sandbox/game/player.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/game/player.c.s
-.PHONY : sandbox/game/player.c.s
-
-sandbox/gl/geometry.o: sandbox/gl/geometry.c.o
-
-.PHONY : sandbox/gl/geometry.o
-
-# target to build an object file
-sandbox/gl/geometry.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/gl/geometry.c.o
-.PHONY : sandbox/gl/geometry.c.o
-
-sandbox/gl/geometry.i: sandbox/gl/geometry.c.i
-
-.PHONY : sandbox/gl/geometry.i
-
-# target to preprocess a source file
-sandbox/gl/geometry.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/gl/geometry.c.i
-.PHONY : sandbox/gl/geometry.c.i
-
-sandbox/gl/geometry.s: sandbox/gl/geometry.c.s
-
-.PHONY : sandbox/gl/geometry.s
-
-# target to generate assembly for a file
-sandbox/gl/geometry.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/gl/geometry.c.s
-.PHONY : sandbox/gl/geometry.c.s
 
 sandbox/main.o: sandbox/main.c.o
 
@@ -264,7 +183,7 @@ sandbox/main.o: sandbox/main.c.o
 
 # target to build an object file
 sandbox/main.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/main.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/main.c.o
 .PHONY : sandbox/main.c.o
 
 sandbox/main.i: sandbox/main.c.i
@@ -273,7 +192,7 @@ sandbox/main.i: sandbox/main.c.i
 
 # target to preprocess a source file
 sandbox/main.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/main.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/main.c.i
 .PHONY : sandbox/main.c.i
 
 sandbox/main.s: sandbox/main.c.s
@@ -282,7 +201,7 @@ sandbox/main.s: sandbox/main.c.s
 
 # target to generate assembly for a file
 sandbox/main.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/sandbox/main.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/sandbox/main.c.s
 .PHONY : sandbox/main.c.s
 
 src/alpha.o: src/alpha.c.o
@@ -291,7 +210,7 @@ src/alpha.o: src/alpha.c.o
 
 # target to build an object file
 src/alpha.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alpha.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alpha.c.o
 .PHONY : src/alpha.c.o
 
 src/alpha.i: src/alpha.c.i
@@ -300,7 +219,7 @@ src/alpha.i: src/alpha.c.i
 
 # target to preprocess a source file
 src/alpha.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alpha.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alpha.c.i
 .PHONY : src/alpha.c.i
 
 src/alpha.s: src/alpha.c.s
@@ -309,7 +228,7 @@ src/alpha.s: src/alpha.c.s
 
 # target to generate assembly for a file
 src/alpha.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alpha.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alpha.c.s
 .PHONY : src/alpha.c.s
 
 src/alphabeta.o: src/alphabeta.c.o
@@ -318,7 +237,7 @@ src/alphabeta.o: src/alphabeta.c.o
 
 # target to build an object file
 src/alphabeta.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alphabeta.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alphabeta.c.o
 .PHONY : src/alphabeta.c.o
 
 src/alphabeta.i: src/alphabeta.c.i
@@ -327,7 +246,7 @@ src/alphabeta.i: src/alphabeta.c.i
 
 # target to preprocess a source file
 src/alphabeta.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alphabeta.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alphabeta.c.i
 .PHONY : src/alphabeta.c.i
 
 src/alphabeta.s: src/alphabeta.c.s
@@ -336,7 +255,7 @@ src/alphabeta.s: src/alphabeta.c.s
 
 # target to generate assembly for a file
 src/alphabeta.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/alphabeta.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/alphabeta.c.s
 .PHONY : src/alphabeta.c.s
 
 src/gamma.o: src/gamma.c.o
@@ -345,7 +264,7 @@ src/gamma.o: src/gamma.c.o
 
 # target to build an object file
 src/gamma.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma.c.o
 .PHONY : src/gamma.c.o
 
 src/gamma.i: src/gamma.c.i
@@ -354,7 +273,7 @@ src/gamma.i: src/gamma.c.i
 
 # target to preprocess a source file
 src/gamma.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma.c.i
 .PHONY : src/gamma.c.i
 
 src/gamma.s: src/gamma.c.s
@@ -363,7 +282,7 @@ src/gamma.s: src/gamma.c.s
 
 # target to generate assembly for a file
 src/gamma.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma.c.s
 .PHONY : src/gamma.c.s
 
 src/gamma/alphabet.o: src/gamma/alphabet.c.o
@@ -372,7 +291,7 @@ src/gamma/alphabet.o: src/gamma/alphabet.c.o
 
 # target to build an object file
 src/gamma/alphabet.c.o:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma/alphabet.c.o
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma/alphabet.c.o
 .PHONY : src/gamma/alphabet.c.o
 
 src/gamma/alphabet.i: src/gamma/alphabet.c.i
@@ -381,7 +300,7 @@ src/gamma/alphabet.i: src/gamma/alphabet.c.i
 
 # target to preprocess a source file
 src/gamma/alphabet.c.i:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma/alphabet.c.i
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma/alphabet.c.i
 .PHONY : src/gamma/alphabet.c.i
 
 src/gamma/alphabet.s: src/gamma/alphabet.c.s
@@ -390,7 +309,7 @@ src/gamma/alphabet.s: src/gamma/alphabet.c.s
 
 # target to generate assembly for a file
 src/gamma/alphabet.c.s:
-	$(MAKE) -f CMakeFiles/ind3d.dir/build.make CMakeFiles/ind3d.dir/src/gamma/alphabet.c.s
+	$(MAKE) -f CMakeFiles/VoxelSpriteEditor.dir/build.make CMakeFiles/VoxelSpriteEditor.dir/src/gamma/alphabet.c.s
 .PHONY : src/gamma/alphabet.c.s
 
 # Help Target
@@ -401,22 +320,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ind3d"
+	@echo "... VoxelSpriteEditor"
 	@echo "... sandbox/core.o"
 	@echo "... sandbox/core.i"
 	@echo "... sandbox/core.s"
 	@echo "... sandbox/game.o"
 	@echo "... sandbox/game.i"
 	@echo "... sandbox/game.s"
-	@echo "... sandbox/game/map.o"
-	@echo "... sandbox/game/map.i"
-	@echo "... sandbox/game/map.s"
-	@echo "... sandbox/game/player.o"
-	@echo "... sandbox/game/player.i"
-	@echo "... sandbox/game/player.s"
-	@echo "... sandbox/gl/geometry.o"
-	@echo "... sandbox/gl/geometry.i"
-	@echo "... sandbox/gl/geometry.s"
 	@echo "... sandbox/main.o"
 	@echo "... sandbox/main.i"
 	@echo "... sandbox/main.s"

@@ -119,7 +119,6 @@ static inline void select_pixel(int mx, int my)
 
 void event_handler(void)
 {
-<<<<<<< HEAD
     if (kbd_key_pressed(SDLK_w))
     {
         sprite_area.y--;
@@ -193,10 +192,9 @@ void event_handler(void)
             }
         }
     }
-=======
+
     if (kbd_key_pressed(SDLK_ESCAPE))
         is_program_running = false;
->>>>>>> 461d48516d810d37fc7cb2b50f8db4ffa092ed7a
 
     pixel_w = (float32)render_area.w / sprite_area.w;
     pixel_h = (float32)render_area.h / sprite_area.h;
@@ -390,7 +388,6 @@ void render(void)
             }
         }
     }
-    debug("%d %d", selected_area_x, selected_area_y);
     if (selected_area_x != -1 && selected_area_y != -1)
     {
         Positions pos = (Positions){selected_area_x, selected_area_y};
